@@ -1,2 +1,2 @@
-# if-pocket-then-kindle
-If an article is tagged #kindle in Pocket, send the article to your kindle device.
+# Tagged article in pocket, send to kindle
+If an article (PDF) is tagged #kindle in Pocket, reflow the PDF file using [k2pdfopt](http://www.willus.com/k2pdfopt/) for viewing on the Kindle Paperwhite and send it to your Kindle device.
