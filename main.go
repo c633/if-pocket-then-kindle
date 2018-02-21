@@ -27,7 +27,7 @@ func init() {
 		panic(err)
 	}
 
-	k2pdfopt = filepath.Join(usr.HomeDir, "Downloads", "k2pdfopt")
+	k2pdfopt = "k2pdfopt"
 }
 
 func main() {
@@ -81,9 +81,8 @@ func (bot *Bot) run() {
 					bot.handle(items, mail)
 				}()
 			}
+			since = time.Now().Unix()
 		}
-		since = time.Now().Unix()
-		timeout = time.Duration(time.Minute)
 	}
 }
 

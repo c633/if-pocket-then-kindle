@@ -1,0 +1,5 @@
+app:
+    build: .
+    volumes:
+        - ~/.config/if-pocket-then-kindle:/root/.config/if-pocket-then-kindle/
+    entrypoint: app
